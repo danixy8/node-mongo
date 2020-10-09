@@ -50,13 +50,13 @@ app.put('/usuario/:id', function (req, res) {
 
 app.put('/usuarioNuevo/:id', function (req, res) {
 
-let id = req.params.id
+    let id = req.params.id
 
-let saludo = `${id} es un buen numero`
+    let saludo = `${id} es un buen numero`
 
-res.json({
-    saludo
-})
+    res.json({
+        saludo
+    })
 });
 
 
